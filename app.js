@@ -8,7 +8,7 @@ bot.usage = new Discord.Collection();
 bot.alias = new Discord.Collection();
 var n = 0;
 
-fs.readdir(`./cmds`).then(err, files => {
+fs.readdir(`./cmds`).then((err, files) => {
   if (err) return console.log(err);
   files.forEach(file => {
     let f = require(`./cmds/${file}`);
