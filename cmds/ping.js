@@ -3,7 +3,7 @@ const sql = require('sqlite');
 sql.open(`./guildsettings.sqlite`);
 
 module.exports.run = (bot, message, args, funcs) => {
-  funcs.ping(message.channel);
+  funcs.ping(message.channel, message, bot);
 };
 
 module.exports.help = {
