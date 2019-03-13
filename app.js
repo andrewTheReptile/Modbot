@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const sqlite = require('sqlite');
+const sql = require('sqlite');
 sql.open(`./guildsettings.sqlite`);
 const fs = require('fs');
 bot.commands = new Discord.Collection();
