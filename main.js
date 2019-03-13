@@ -60,4 +60,4 @@ bot.on('disconnect', () => {
 
 bot.on('reconnecting', () => console.warn('Reconnecting...'));
 
-bot.login('NDM4MzU2NDkxODcxODQ2NDAw.D2rcKg.MJHoRJtErj7Q628zm8baLUXRLbw');
+bot.login('TOKEN');
