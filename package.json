@@ -1,0 +1,27 @@
+{
+  "name": "modbot",
+  "version": "1.0.0",
+  "description": "This is a discord.js bot meant only for moderation commands",
+  "main": "app.js",
+  "scripts": {
+    "test": "ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Modbot"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Andrew",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "fs": "0.0.1-security",
+    "node-superfetch": "^0.1.9",
+    "randomcolor": "^0.5.4",
+    "sqlite": "^3.0.2",
+    "util": "^0.11.1"
+  }
+}
