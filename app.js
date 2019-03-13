@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const bot = new Discord.Client({disableEveryone: true});
 const sql = require('sqlite');
 sql.open(`./guildsettings.sqlite`);
 const fs = require('fs');
