@@ -8,6 +8,8 @@ bot.usage = new Discord.Collection();
 bot.alias = new Discord.Collection();
 var n = 0;
 
+function init() {
+
 fs.readdir(`./cmds`, function(err, files) {
   if (err) return console.log(err);
   files.forEach(file => {
@@ -20,3 +22,7 @@ fs.readdir(`./cmds`, function(err, files) {
   console.log(`Loaded ${n} files.`);
   n = 0;
 });
+
+}
+
+init();
